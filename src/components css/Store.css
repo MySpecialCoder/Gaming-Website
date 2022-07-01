@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.all{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7rem;
+    margin-left: -2rem;
+    flex-wrap: wrap;
+}
+
+.card img{
+    width: 70%;
+    margin-top: 1rem;
+}
+
+.card{
+    width: 20%;
+    height: 26rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+
+}
+
+.btn{
+    margin-left: 4rem;
+    margin-bottom: -1rem;
+}
+
+.card-title{
+    text-align: center;
+}

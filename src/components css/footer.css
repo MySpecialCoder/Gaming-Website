@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containers{
+    width: 100%;
+    height: 22vh;
+    margin-top: 70px;
+    background-color: black;
+
+}
+.detail ul li{
+    list-style: none;
+    margin-top: 5px;
+}
+
+.detail{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 23rem;
+    flex-direction: column;
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.det{
+    margin-top: -1rem;
+}

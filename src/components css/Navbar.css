@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: block;    
+}
+
+
+.background img{
+    width: 100%;
+    height: 100vh;
+    margin-top: -9rem;
+}
+
+
+.couple  h1,h2{
+    position: relative;
+    top: 300px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+@media only screen and (max-width: 1120px){
+    .couple h1,h2{
+        font-size: 45px;
+    }
+
+    .background img{
+        height: 80vh;
+    }
+}
+
+
+@media only screen and (max-width: 544px){
+    .couple h1,h2{
+        font-size: 20px;
+    }
+
+    .background img{
+        height: 50vh;
+    }
+}
+
+
+@media only screen and (max-width: 984px){
+    .couple h1,h2{
+        font-size: 35px;
+        color: white;
+    }
+    
+    .couple{
+        margin-top: 10px;
+
+    }
+
+    .background img{
+        height: 70vh;
+    }
+}
+
+
+@media only screen and (max-width: 998px) {
+    .background img{
+        height: 90vh;
+        margin-top: -7rem;
+    }
+
+    .couple h1,h2{
+        font-size: 30px;
+        color: white;
+        position: relative;
+        top: 12rem;
+    }
+ 
+}
+
+@media only screen and (max-width: 1024px) {
+    .background img{
+        height: 100vh;
+        margin-top: -7rem;
+    }
+
+    .couple h1,h2{
+        font-size: 37px;
+        color: white;
+        position: relative;
+        top: 25rem;
+    }
+ 
+}
+
+
+
+@media only screen and (max-width: 414px) {
+    .background img{
+        height: 50vh;
+        margin-top: -7rem;
+    }
+
+    .couple h1,h2{
+        font-size: 18px;
+        color: white;
+        position: relative;
+        top: 7rem;
+    }
+ 
+}
+
+
+@media only screen and (max-width: 390px) {
+    .background img{
+        height: 50vh;
+        margin-top: -7rem;
+    }
+
+    .couple h1,h2{
+        font-size: 15px;
+        color: white;
+        position: relative;
+        top: 7rem;
+    }
+ 
+}
+
+@media only screen and (max-width: 800px) {
+    .background img{
+        height: 50vh;
+        margin-top: -7rem;
+    }
+
+    .couple h1,h2{
+        font-size: 15px;
+        color: white;
+        position: relative;
+        top: 15rem;
+    }
+ 
+}
+
+@media only screen and (max-width: 428px) {
+    .background img{
+        width: 100%;
+        height: 50vh;
+        margin-top: -88rem;
+    }
+
+    .couple h1,h2{
+        font-size: 88px;
+        color: white;
+        position: relative;
+        top: 15rem;
+    }
+ 
+}
+
+
+
+
+
+
+
